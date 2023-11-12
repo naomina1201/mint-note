@@ -22,8 +22,12 @@ const List: FC<ListProps> = ({ page, key }) => {
   const update = dateToTime(lastUpdatedAt(page), 'YYYY年MM月DD日')
 
   const published = dateToTime(publishedAt(page), 'YYYY年MM月DD日')
+  console.log(postCategory(page))
   return (
-    <li className='p-6 mb-6 bg-white rounded-lg shadow-sm border-gray-200 border-[1px] flex justify-between'>
+    <li
+      key={key}
+      className='p-6 mb-6 bg-white rounded-lg shadow-sm border-gray-200 border-[1px] flex justify-between'
+    >
       {/* <div className='w-[260px]'>
         <Image src={cover(page)} alt='test' width={220} height={118.78} className='rounded-lg' />
       </div> */}

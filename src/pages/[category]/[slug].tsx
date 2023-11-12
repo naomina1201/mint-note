@@ -65,7 +65,6 @@ async function fetchAsync(request: FetchRequest) {
 }
 
 const Article: FC<ArticleProps> = ({ page, blocks }) => {
-  console.log(blocks)
   const url = `../../../api/image/${postCategory(page)}/${slug(page)}/?slug=${slug(
     page,
   )}&cat=${postCategory(page)}`
