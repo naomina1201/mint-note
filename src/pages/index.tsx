@@ -113,7 +113,11 @@ const Home: FC<FrontProps> = ({ pages, newsPages }) => {
                 className='w-[120px] mx-auto text-center rounded-full object-cover object-center'
               />
               <h2 className='font-black text-center text-base my-2'>
-                <span className='underline'>ナオ＠精神障害当事者</span>
+                <span className='underline'>
+                  <a href='https://mint-note.net/for-first-time-users/01689127440000'>
+                    ナオ＠精神障害当事者
+                  </a>
+                </span>
               </h2>
               <p className='text-center text-sm'>
                 精神障害（統合失調症）、発達障害（ADHD,ASD）の当事者です。
