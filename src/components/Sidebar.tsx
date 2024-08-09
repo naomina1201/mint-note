@@ -28,7 +28,7 @@ const Sidebar = () => {
           </li>
           <li>
             <Link href={`/tw`} className={current('/tw')}>
-              つぶやき
+              メモ帳
             </Link>
           </li>
           <li>

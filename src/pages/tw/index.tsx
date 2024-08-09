@@ -32,14 +32,14 @@ const TW: NextPage<IndexProps> = ({ pages }) => {
     <Layout>
       <>
         <Seo
-          pageTitle={`つぶやき`}
+          pageTitle={`メモ帳`}
           pagePath={`${siteConfig.siteUrl}tw`}
           pageImg={`${siteConfig.siteUrl}ogp.jpg`}
           pageImgWidth={1200}
           pageImgHeight={800}
         />
-        <h1 className='font-black text-2xl mb-6'>つぶやき</h1>
-        <Breadcrumb breadList={`tw`} breadListJs={`つぶやき`} />
+        <h1 className='font-black text-2xl mb-6'>メモ帳</h1>
+        <Breadcrumb breadList={`tw`} breadListJs={`メモ帳`} />
 
         {pages.map((page, index) => (
           <div
