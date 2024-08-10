@@ -43,6 +43,9 @@ const SpNavgation = () => {
             <li>
               <Link href={`/medical-welfare-system`}>医療福祉制度</Link>
             </li>
+            <li>
+              <Link href={`https://naomina121.net`} target='blank'>Naomina121.net</Link>
+            </li>
           </ul>
         </nav>
         <p className='hm-title'>その他</p>

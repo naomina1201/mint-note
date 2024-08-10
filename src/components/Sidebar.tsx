@@ -54,6 +54,14 @@ const Sidebar = () => {
               脳科学・心理学
             </Link>
           </li>
+          <li>
+            <Link
+              href={`https://naomina121.net`}
+              target='blank'
+            >
+              Naomina121.net
+            </Link>
+          </li>
         </ul>
       </nav>
     </aside>

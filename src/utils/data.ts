@@ -51,7 +51,7 @@ export const isPublished = (page: PageType) => {
 
 // カテゴリーの設定
 export const postCategory = (page: PageType) => {
-  return page.properties.category.select.name
+  return page.properties.category.select
 }
 
 // タグの設定
