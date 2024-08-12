@@ -32,7 +32,7 @@ const SpNavgation = () => {
               <Link href={`/for-first-time-users`}>初めての方へ</Link>
             </li>
             <li>
-              <Link href={`/tw`}>つぶやき</Link>
+              <Link href={`/tw`}>メモ帳</Link>
             </li>
             <li>
               <Link href={`/health`}>健康</Link>
